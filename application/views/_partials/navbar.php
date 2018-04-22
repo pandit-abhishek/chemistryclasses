@@ -8,7 +8,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" href=""><?php echo $site_name; ?></a>
+		<a class="navbar-brand" href=""><?php //echo $site_name; ?></a>
 	</div>
 
 	<div class="navbar-collapse collapse">
@@ -44,7 +44,7 @@
 			<?php endforeach; ?>
 		</ul>
 
-		<?php $this->load->view('_partials/language_switcher'); ?>
+		<?php //$this->load->view('_partials/language_switcher'); ?>
 		
 	</div>
 

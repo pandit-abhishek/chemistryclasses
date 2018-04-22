@@ -7,6 +7,8 @@
 	<base href="<?php echo $base_url; ?>" />
 
 	<title><?php echo $page_title; ?></title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 	<?php
 		foreach ($meta_data as $name => $content)

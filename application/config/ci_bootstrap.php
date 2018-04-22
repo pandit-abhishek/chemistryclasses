@@ -33,10 +33,20 @@ $config['ci_bootstrap'] = array(
 	// Default scripts to embed at page head or end
 	'scripts' => array(
 		'head'	=> array(
+			// 'https://code.jquery.com/jquery-1.10.2.min.js',
+			// 'assets/dist/frontend/lib.min.js',
+			// 'assets/dist/frontend/app.min.js',
+			// 'assets/dist/frontend/bootstrap.min.js',
+			// 'assets/dist/frontend/jquery.countdown.min.js',
+			// 'assets/dist/frontend/jquery.countdown.min.js',
+			// 'assets/dist/frontend/contactform.js',
+			// 'assets/dist/frontend/kinetic.js',
+			// 'assets/dist/frontend/jquery.final-countdown.js',
 		),
 		'foot'	=> array(
-			'assets/dist/frontend/lib.min.js',
-			'assets/dist/frontend/app.min.js'
+			"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+			"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+			"assets/dist/frontend/custom.js"
 		),
 	),
 
@@ -44,7 +54,13 @@ $config['ci_bootstrap'] = array(
 	'stylesheets' => array(
 		'screen' => array(
 			'assets/dist/frontend/lib.min.css',
-			'assets/dist/frontend/app.min.css'
+			'assets/dist/frontend/app.min.css',
+			'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
+			'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css',
+			'assets/dist/frontend/style.css',
+			'assets/dist/frontend/demo.css',
+
+
 		)
 	),
 
@@ -53,26 +69,26 @@ $config['ci_bootstrap'] = array(
 	
 	// Multilingual settings
 	'languages' => array(
-		'default'		=> 'en',
-		'autoload'		=> array('general'),
-		'available'		=> array(
-			'en' => array(
-				'label'	=> 'English',
-				'value'	=> 'english'
-			),
-			'zh' => array(
-				'label'	=> '繁體中文',
-				'value'	=> 'traditional-chinese'
-			),
-			'cn' => array(
-				'label'	=> '简体中文',
-				'value'	=> 'simplified-chinese'
-			),
-			'es' => array(
-				'label'	=> 'Español',
-				'value' => 'spanish'
-			)
-		)
+		// 'default'		=> 'en',
+		// 'autoload'		=> array('general'),
+		// 'available'		=> array(
+		// 	'en' => array(
+		// 		'label'	=> 'English',
+		// 		'value'	=> 'english'
+		// 	),
+		// 	'zh' => array(
+		// 		'label'	=> '繁體中文',
+		// 		'value'	=> 'traditional-chinese'
+		// 	),
+		// 	'cn' => array(
+		// 		'label'	=> '简体中文',
+		// 		'value'	=> 'simplified-chinese'
+		// 	),
+		// 	'es' => array(
+		// 		'label'	=> 'Español',
+		// 		'value' => 'spanish'
+		// 	)
+		// )
 	),
 
 	// Google Analytics User ID
@@ -83,6 +99,22 @@ $config['ci_bootstrap'] = array(
 		'home' => array(
 			'name'		=> 'Home',
 			'url'		=> '',
+		),
+		'about' => array(
+			'name'		=> 'About',
+			'url'		=> '#',
+		),
+		'courses' => array(
+			'name'		=> 'Courses',
+			'url'		=> '#',
+		),
+		'gallery' => array(
+			'name'		=> 'Gallery',
+			'url'		=> '#',
+		),
+		'contact' => array(
+			'name'		=> 'Contact',
+			'url'		=> '#',
 		),
 	),
 
