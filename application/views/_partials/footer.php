@@ -42,11 +42,13 @@
 		</div>
 	</div>	
 	<div class="bottom-footer">
-		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-12 col-lg-12">
-				<p class="pull-left">Copyright &copy; Chemistry Classes</p>
-				<span class="pull-right" >Design and Developed By <a target = "_blank" href="https://www.technovihar.com">www.technovihar.com</a></span>
+  		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-12 col-lg-12">
+					<p class="pull-left">Copyright &copy; Chemistry Classes</p>
+					<span class="pull-right">Design and Developed By <a target="_blank" href="http://www.technovihar.com">www.technovihar.com</a></span>
+				</div>
 			</div>
 		</div>
-	</div>
+  </div>
 </footer>

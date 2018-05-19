@@ -102,7 +102,7 @@ $config['ci_bootstrap'] = array(
 		),
 		'about' => array(
 			'name'		=> 'About',
-			'url'		=> '#',
+			'url'		=> 'home/about',
 		),
 		'courses' => array(
 			'name'		=> 'Courses',
@@ -114,7 +114,7 @@ $config['ci_bootstrap'] = array(
 		),
 		'contact' => array(
 			'name'		=> 'Contact',
-			'url'		=> '#',
+			'url'		=> 'home/contact',
 		),
 	),
 

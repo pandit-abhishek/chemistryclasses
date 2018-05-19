@@ -10,4 +10,12 @@ class Home extends MY_Controller {
 	{
 		$this->render('site/home', 'full_width');
 	}
+
+	public function about(){
+		$this->render('site/about', 'full_width');	
+	}
+
+	public function contact(){
+		$this->render('site/contact', 'full_width');		
+	}
 }
