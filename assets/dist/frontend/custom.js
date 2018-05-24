@@ -9,4 +9,14 @@ $(document).ready(function(){
 			$("header").removeClass("scroll-header");
 		}
 	});
+	$(".gallery-btn").click(function() {
+		$('html, body').animate({
+			scrollTop: $(".home-gallery").offset().top -62
+		}, 1500);
+	});
+	$(".course-btn").click(function() {
+		$('html, body').animate({
+			scrollTop: $(".we-provide").offset().top -62
+		}, 1500);
+	});
 });

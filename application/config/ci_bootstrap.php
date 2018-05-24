@@ -33,19 +33,12 @@ $config['ci_bootstrap'] = array(
 	// Default scripts to embed at page head or end
 	'scripts' => array(
 		'head'	=> array(
-			// 'https://code.jquery.com/jquery-1.10.2.min.js',
-			// 'assets/dist/frontend/lib.min.js',
-			// 'assets/dist/frontend/app.min.js',
-			// 'assets/dist/frontend/bootstrap.min.js',
-			// 'assets/dist/frontend/jquery.countdown.min.js',
-			// 'assets/dist/frontend/jquery.countdown.min.js',
-			// 'assets/dist/frontend/contactform.js',
-			// 'assets/dist/frontend/kinetic.js',
-			// 'assets/dist/frontend/jquery.final-countdown.js',
+			
 		),
 		'foot'	=> array(
 			"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
 			"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+			"https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js",
 			"assets/dist/frontend/custom.js"
 		),
 	),
@@ -57,8 +50,9 @@ $config['ci_bootstrap'] = array(
 			'assets/dist/frontend/app.min.css',
 			'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
 			'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css',
-			'assets/dist/frontend/style.css',
 			'assets/dist/frontend/demo.css',
+			'assets/dist/frontend/gallery-grid.css',
+			'assets/dist/frontend/style.css',
 
 
 		)

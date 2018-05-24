@@ -18,4 +18,8 @@ class Home extends MY_Controller {
 	public function contact(){
 		$this->render('site/contact', 'full_width');		
 	}
+
+	public function courses(){
+		$this->render('site/courses', 'full_width');		
+	}
 }
