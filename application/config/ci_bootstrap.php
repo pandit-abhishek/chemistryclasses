@@ -50,9 +50,9 @@ $config['ci_bootstrap'] = array(
 			'assets/dist/frontend/app.min.css',
 			'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
 			'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css',
-			'assets/dist/frontend/demo.css',
-			'assets/dist/frontend/gallery-grid.css',
 			'assets/dist/frontend/style.css',
+			'assets/dist/frontend/gallery-grid.css',
+			
 
 
 		)

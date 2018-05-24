@@ -11,7 +11,7 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 about-img">
-				<img src="images/about-ins.jpg" class="img-responsive img-shadow">
+				<img src="assets/dist/images/about-ins.jpg" class="img-responsive img-shadow">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 about-desc">
 				<h3>high-quality education</h3>
