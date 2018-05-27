@@ -33,9 +33,13 @@ $config['ci_bootstrap'] = array(
 	// Default scripts to embed at page head or end
 	'scripts' => array(
 		'head'	=> array(
+			'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js',
 			'assets/dist/admin/adminlte.min.js',
 			'assets/dist/admin/lib.min.js',
-			'assets/dist/admin/app.min.js'
+			'assets/dist/admin/app.min.js',
+			'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
+            'https://code.jquery.com/ui/1.12.1/jquery-ui.js',
+			'assets/dist/admin/admin.js'
 		),
 		'foot'	=> array(
 		),
@@ -44,9 +48,11 @@ $config['ci_bootstrap'] = array(
 	// Default stylesheets to embed at page head
 	'stylesheets' => array(
 		'screen' => array(
+			'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css',
 			'assets/dist/admin/adminlte.min.css',
 			'assets/dist/admin/lib.min.css',
-			'assets/dist/admin/app.min.css'
+			'assets/dist/admin/app.min.css',
+			'assets/dist/admin/admin.css',
 		)
 	),
 
@@ -64,16 +70,6 @@ $config['ci_bootstrap'] = array(
 			'url'		=> '',
 			'icon'		=> 'fa fa-home',
 		),
-		'user' => array(
-			'name'		=> 'Users',
-			'url'		=> 'user',
-			'icon'		=> 'fa fa-users',
-			'children'  => array(
-				'List'			=> 'user',
-				'Create'		=> 'user/create',
-				'User Groups'	=> 'user/group',
-			)
-		),
 		'panel' => array(
 			'name'		=> 'Admin Panel',
 			'url'		=> 'panel',
@@ -84,12 +80,13 @@ $config['ci_bootstrap'] = array(
 				'Admin User Groups'		=> 'panel/admin_user_group',
 			)
 		),
-		'util' => array(
-			'name'		=> 'Utilities',
-			'url'		=> 'util',
-			'icon'		=> 'fa fa-cogs',
+		'student' => array(
+			'name'		=> 'Student',
+			'url'		=> 'student',
+			'icon'		=> 'fa fa-users',
 			'children'  => array(
-				'Database Versions'		=> 'util/list_db',
+				'List'			=> 'student',
+				'Create'		=> 'student/create',
 			)
 		),
 		'logout' => array(
@@ -135,21 +132,7 @@ $config['ci_bootstrap'] = array(
 			'url'		=> '',
 			'target'	=> '_blank',
 			'color'		=> 'text-aqua'
-		),
-		array(
-			'auth'		=> array('webmaster', 'admin'),
-			'name'		=> 'API Site',
-			'url'		=> 'api',
-			'target'	=> '_blank',
-			'color'		=> 'text-orange'
-		),
-		array(
-			'auth'		=> array('webmaster', 'admin', 'manager', 'staff'),
-			'name'		=> 'Github Repo',
-			'url'		=> CI_BOOTSTRAP_REPO,
-			'target'	=> '_blank',
-			'color'		=> 'text-green'
-		),
+		)
 	),
 
 	// Debug tools

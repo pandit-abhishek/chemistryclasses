@@ -1,0 +1,115 @@
+/**
+ * Common form css start here.
+ */
+
+.form-element {
+    border-color: rgb(218, 218, 218);
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+    border-width: 0px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 0 9px 0 11px;
+    border-style: solid;
+    resize: vertical;
+    display: inline-block;
+
+}
+.section-wrapper form {
+    display: table;
+    margin: 0 auto;
+    width: 74%;
+    border: 0px solid ;
+}
+
+.section-wrapper form input[type="submit"]  {
+    width: unset;
+    margin: 0 auto;
+    padding: 0 44px;
+}
+.section-wrapper form input[type="submit"]:hover {
+    background-color: #31b0d5;
+    border-color: #1b6d85;
+}
+.section-wrapper form input {
+    background: #ecf0f5;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 7px;
+    border: 2px solid #777;
+    padding: 10px;
+}
+.section-wrapper form input[type="submit"] {
+    color: #fff;
+    background-color: #49afcd;
+    border-color: #46b8da;
+    padding: 4px 10px 4px;
+    height: 29px;
+    border-radius: 4px !important;
+}
+
+.section-wrapper form select {
+    background: #ecf0f5;
+    float: right;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 7px;
+    border: 2px solid #777;
+}
+.section-wrapper form label {
+    width: 200px;
+}
+div#upload-button {
+    padding-left: 11px;
+    padding-top: 5px;
+}
+.file_upload_right{
+    display:inline-block !important;
+}
+
+.btn_top_padding{
+    padding-top: 15px;
+}
+.content-header h1 {
+    text-align: center;
+}
+
+
+/**
+ * Common form CSS end here.
+ */
+
+.error {
+    color: red;
+}
+
+
+/**
+ * Common List view section css start.
+ */
+
+
+.list-view-section table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x:auto;
+}
+
+.list-view-section td, .list-view-section th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+}
+
+.list-view-section tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/**
+ * Common List view section css end.
+ */

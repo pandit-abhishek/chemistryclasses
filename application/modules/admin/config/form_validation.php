@@ -141,5 +141,68 @@ $config = array(
 			'rules'		=> 'required|matches[new_password]',
 		),
 	),
+	// Admin User Change Password
+	'student/create' => array(
+		array(
+			'field'		=> 'FirstName',
+			'label'		=> 'First Name',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'FathersName',
+			'label'		=> 'Father\'s Name',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'MothersName',
+			'label'		=> 'Mother\'s Name',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'dob',
+			'label'		=> 'D.O.B',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'class',
+			'label'		=> 'Class',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'courses',
+			'label'		=> 'Courses',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'batch',
+			'label'		=> 'batch',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'time',
+			'label'		=> 'time',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'MobileNumber',
+			'label'		=> 'Mobile Number',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'FeePerYear',
+			'label'		=> 'Fee Per Year',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'FeePerMonth',
+			'label'		=> 'Fee Per Month',
+			'rules'		=> 'required',
+		),
+		array(
+			'field'		=> 'stream',
+			'label'		=> 'Stream',
+			'rules'		=> 'required',
+		),
+	),
 
 );
