@@ -159,6 +159,18 @@
         </div>
     </div>              
 </section>
+<?php
+    $directory = "./assets/dist/images/gallery/";
+    $images = opendir($directory);
+    while (false !== ($filename = readdir($images))) {
+        if($filename == '.' || $filename == '..'){
+            continue;
+        }
+        $files[] = $filename;
+    }
+    $totalImage = count($files);
+    
+?>
 <section class="home-gallery">
     <div class="container gallery-container">
         <h3 class="short-border">Our Gallery</h3>
@@ -166,82 +178,25 @@
         <div class="tz-gallery">
             <div id="myCarousel2" class="carousel slide text-center" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <ul class="thumbnails list-unstyled">
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g6.jpg">
-                                        <img src="assets/dist/images/gallery/g6.jpg" alt="rocks">
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g1.jpg">
-                                        <img src="assets/dist/images/gallery/g1.jpg" alt="benches">
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g7.jpg">
-                                        <img src="assets/dist/images/gallery/g7.jpg" alt="sky">
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <ul class="thumbnails list-unstyled">
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g1.jpg">
-                                        <img src="assets/dist/images/gallery/g1.jpg" alt="rocks">
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g2.jpg">
-                                        <img src="assets/dist/images/gallery/g2.jpg" alt="benches">
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g3.jpg">
-                                        <img src="assets/dist/images/gallery/g3.jpg" alt="sky">
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <ul class="thumbnails list-unstyled">
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g4.jpg">
-                                        <img src="assets/dist/images/gallery/g4.jpg" alt="rocks">
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g5.jpg">
-                                        <img src="assets/dist/images/gallery/g5.jpg" alt="benches">
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="col-sm-12 col-md-12">
-                                    <a class="lightbox" href="assets/dist/images/gallery/g2.jpg">
-                                        <img src="assets/dist/images/gallery/g2.jpg" alt="sky">
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                    <?php
+                        for($i = 0; $i < (int)$totalImage /3 ;$i++){ $active = null; ; if($i == 0) { $active = ' active';} ?>
+                            <div class="item<?php echo $active;?>">
+                                <ul class="thumbnails list-unstyled">
+                                    <?php
+                                        $count = 1;
+                                        foreach ($files as $key => $value) { if($count > 3) { break; } ?>
+                                            <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                                <div class="col-sm-12 col-md-12">
+                                                    <a class="lightbox" href="assets/dist/images/gallery/<?php echo $value?>">
+                                                        <img src="assets/dist/images/gallery/<?php echo $value?>" alt="rocks">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                    <?php unset($files[$key]);$count++; } ?>
+                                </ul>
+                            </div>                            
+
+                    <?php } ?>   
                 <nav>
                     <ul class="control-box pager">
                         <li><a data-slide="prev" href="#myCarousel2" class="color-b"><i class="glyphicon glyphicon-chevron-left"></i></a></li>
