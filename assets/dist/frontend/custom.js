@@ -19,4 +19,7 @@ $(document).ready(function(){
 			scrollTop: $(".we-provide").offset().top -62
 		}, 1500);
 	});
+	$("i.toggle-btn").click(function(){
+		$(".nav-menu").slideToggle();
+	});
 });

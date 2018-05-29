@@ -103,7 +103,8 @@ header {
 /*****header******/
 
 .header {
-  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  position:relative;
 }
 
 ul.nav-menu li {
@@ -145,7 +146,9 @@ ul.nav-menu li a:hover {
 ul.nav-menu {
   margin-bottom: 0;
 }
-
+.logo{
+	position:relative;
+}
 .logo img {
   max-width: 165px;
   width: 100%;
@@ -873,9 +876,167 @@ p.details-page-para {
   font-size: 10px;
   padding: 8px 25px;
 }
-
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
+@media only screen and (max-width: 1024px){
+	ul.nav-menu li{
+		height:80px;
+	}
+	.event{
+		
+		margin-bottom:30px;
+	}
+	.dir-message h4 span {
+		font-size: 16px;
+		line-height: 24px;
+		margin: 4px 0 25px;
+		text-align: justify;
+	}
+	.dir-message h4 .quote i.fa {
+		font-size: 40px;
+	}
+}	
+@media only screen and (max-width: 767px) {
+	ul.nav-menu li{
+		height:80px;
+	}
+	.columns{
+		width: 100%;
+	}
+	header{
+		position:unset;
+	}
+	header.scroll-header{
+		position:fixed;
+	}
+	.nav-menu{
+		display:none;
+	}
+	.scroll-header ul.nav-menu li {
+		height: 40px;
+	}
+	.scroll-header .logo{
+		background:#333333;
+	}
+	.mob-nav ul{
+		/* background: #000 none repeat scroll 0 0;
+		display: table;
+		position: absolute;
+		width: 100%;
+		 */
+		left: 0;
+		z-index: 999;
+		padding-top:13px;
+		background:#000;
+		width:100%;
+	}
+	.mob-nav{
+		padding:0;
+	}
+	.header-top ul.head-top-right li::after{
+		background:transparent;
+	}
+	.mob-nav ul li {
+		display: block;
+		height: 40px;
+		background:#000;
+		width: 100%;
+	}
+	.mob-nav ul li a {
+		display: table;
+		width: 100%;
+	}
+	.mob-nav ul li a::after {
+		bottom: -12px;
+		height: 1px;
+		width:100%;
+		background:#fff;
+	}
+	.logo img {
+		margin: 10px 0;
+		max-width: 130px;
+	}
+	.logo a {
+		display: table;
+	}
+	i.toggle-btn {
+		color: #fff;
+		cursor: pointer;
+		font-size: 34px;
+		position: absolute;
+		right: 17px;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.home-about {
+		padding: 37px 0;
+	}
+	.home-about h3{
+		font-size:27px;
+	}
+	.home-about p{
+		line-height:22px;
+	}
+	.we-provide{
+		padding:24px 0;
+	}
+	.we-provide .short-border ~ p br{
+		display:none;
+	}
+	.home-gallery{
+		margin:0;
+	}
+	.home-gallery h3.short-border{
+		font-size:25px;
+	}
+	.home-gallery .short-border ~ p{
+		margin:14px 0;
+	}
+	.dir-message::before{
+		background:none;
+	}
+	.dir-message::after{
+		width:100%;
+	}
+	.dir-message h3.short-border {
+		margin: 16px auto;
+		font-size:22px;
+	}
+	.online-course h1{
+		font-size:22px;
+	}
+	.dir-message img {
+		display: table;
+		margin: 0 auto;
+	}
+	.page-heading{
+		height:112px;
+	}
+	.page-heading h3 {
+		margin: 0;
+		padding: 43px 0;
+	}
+	.about-mission h1 {
+		font-size: 26px;
+		margin-top: 33px;
+	}
+	.about-mission h3{
+		font-size:18px;
+		margin-bottom:20px;
+	}
+	.about-desc h3{
+		font-size:18px;
+	}
+	.about-desc ul li {
+		font-size: 13px;
+		line-height: 28px;
+	}
+	.about-desc h4 span {
+		display:table;
+		font-size: 16px;
+		margin-bottom: 12px;
+	}
+	.about-us {
+		padding-bottom: 24px;
+	}
 }

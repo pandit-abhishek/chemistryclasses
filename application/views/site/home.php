@@ -15,10 +15,10 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <img src="assets/dist/images/s4.jpg" alt="Chicago">
-                            <div class="carousel-caption">
+                           <!--- <div class="carousel-caption">
                                 <h3>Getting started</h3>
                                 <p>Improve your skills</p>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="item">
                             <img src="assets/dist/images/vikesh.jpg" alt="Chicago">
@@ -256,10 +256,10 @@
     <!-- <h3 class="short-border">Director's Message</h3> -->
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                 <img src="assets/dist/images/dir-img.png" class="img-responsive">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
                 <h3 class="short-border">Director's Message</h3>
                 <h4>
                 <div class="quote">
