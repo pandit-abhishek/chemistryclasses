@@ -5,8 +5,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about-mission">
-				<h1>Our Mission</h1>
-				<h3>Access to free education for everyone</h3>
+				<h1>How can I help you....</h1>
+				<h3>Contact us</h3>
 				<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mau ris vitae erat consequat auctor eu in elit. </p>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">

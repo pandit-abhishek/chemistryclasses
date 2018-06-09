@@ -65,22 +65,27 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                 <h3>About Institute</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-                <ul>
+                <p>In 2010, We had started Carrer Launcher Chemistry classes with Just eight students with the motive of serve real value of education. Since start to now chemistry classes only working to give the actual concept behind chemistry of their student. New heights of success were scaled year after year.<br/><br/>
+
+                We belives to do hard work in a smart way because; Now-a-days examination like IIT-JEE/PMT  are so conceptual that  perfect teaching along with perfect guidance is necessary to crack these examination.
+                Here, at Career Launcher Chemistry Classes we provide all the requirements for the success in engineering and medical entrance examination not only by providing excellent teaching methodology but also by motivating each and every students towards their ambition.
+
+                With this, the institute is on its “Path to Success...” by writing its success story and adding more episodes of splendid achievements year after year.</p>
+                <!-- <ul>
                     <li><i>Consectetur adipisicing elit </i></li>
                     <li><i>Quis nostrud exercitation ullamco</i></li>
                     <li><i>Excepteur sint occaecat</i></li>
                     <li><i>Sed ut perspiciatis unde omnis</i></li>
                     <li><i>Perspiciatis unde omnis iste natus</i></li>
-                </ul>
-                <a href="#" class="btn">Learn More</a>
+                </ul> -->
+                <a href="javascript:void(0)" class="btn">Learn More</a>
             </div>
         </div>
     </div>              
 </section>
 <section class="we-provide">
 <h3 class="short-border">We Provides</h3>
-<p>Lorem ipsum dolor sit amet, consectetur a dipisicing elit.<br> Vero omnis unde nesciunt ipsum dolor sit amet, consectetur a dipisicing elit. Vero omnis unde nesciunt</p>
+<p>We provides various type of facility to build up the concept and carrer with different <br/> methodology described as below.</p>
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -90,7 +95,7 @@
                     </div>  
                     <div class="event-details">
                         <h4>Courses</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur a dipisicing elit. Vero omnis unde nesciunt? Read more</p>
+                        <p>We provide different types of courses structure for the student with different manner.</p>
                     </div>
                     <div class="event-overlap"><a href="courses.php">View More</a></div>
                 </div>
@@ -102,7 +107,7 @@
                     </div>  
                     <div class="event-details">
                         <h4>Study Material</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur a dipisicing elit. Vero omnis unde nesciunt? Read more</p>
+                        <p>We prodive study material for the student who is member of Carrer Launcher Chemistry Classes.</p>
                     </div>
                     <div class="event-overlap"><a href="study-material.php">View More</a></div>
                 </div>
@@ -113,8 +118,8 @@
                       <img class="img-responsive" src="assets/dist/images/online-learning.png">
                     </div>  
                     <div class="event-details">
-                        <h4>Online Learning</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur a dipisicing elit. Vero omnis unde nesciunt? Read more</p>
+                        <h4>Video Lecture</h4>
+                        <p>Carrer Launcher Chemistry Classes is going to start facility of video lecture of their student very soon.</p>
                     </div>
                     <div class="event-overlap"><a href="online-learning.php">View More</a></div>
                 </div>
@@ -127,7 +132,7 @@
                     </div>  
                     <div class="event-details">
                         <h4>Problem Solving</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur a dipisicing elit. Vero omnis unde nesciunt? Read more</p>
+                        <p>We also provides the facility of special problem solving class for their student having need of this.</p>
                     </div>
                     <div class="event-overlap"><a href="problem-solving.php">View More</a></div>
                 </div>
@@ -138,8 +143,8 @@
                       <img class="img-responsive" src="assets/dist/images/batch-timing.jpg">
                     </div>  
                     <div class="event-details">
-                        <h4>Batch Timing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur a dipisicing elit. Vero omnis unde nesciunt? Read more</p>
+                        <h4>Batches</h4>
+                        <p>We have different batches for different classes and also special batches for competitive examination.</p>
                     </div>
                     <div class="event-overlap"><a href="batch-timing.php">View More</a></div>
                 </div>
@@ -151,7 +156,7 @@
                     </div>  
                     <div class="event-details">
                         <h4>Test Series</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur a dipisicing elit. Vero omnis unde nesciunt? Read more</p>
+                        <p>Carrer Launcher Chemistry Classes doing activity of weekly test series for their student.</p>
                     </div>
                     <div class="event-overlap"><a href="test-series.php">View More</a></div>
                 </div>
@@ -174,7 +179,7 @@
 <section class="home-gallery">
     <div class="container gallery-container">
         <h3 class="short-border">Our Gallery</h3>
-        <p>Grid Layout With Zoom Effect</p>  
+        <p>Let's visit our gallery having some fun and happiest memories....</p>  
         <div class="tz-gallery">
             <div id="myCarousel2" class="carousel slide text-center" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
@@ -220,8 +225,8 @@
                 <div class="quote">
                     <i class="fa fa-quote-left fa-4x"></i>
                 </div>
-                <span>Being systematic, organized & professionally managed always helps in maintaining the highest standards in any field. Being systematic, organized & professionally managed always helps in maintaining the highest standards in any field.</span></h4>
-                <p>Bikesh Kumar<br><span>M.D., CEO & Head-Academics</span></p>
+                <span>At the outset, we would like to express our gratitude for the trust you have placed in CAREER LAUNCHER CHEMISTRY CLASSES INSTITUTE. This is a Golden Age for Career Education; for Education is not a preparation for exam; it is to prepare for life itself. At CAREER LAUNCHER CHEMISTRY CLASSES INSTITUTE, value based knowledge is the true aim of education that we impart to our students.</span></h4>
+                <p>Bikesh Kumar<br><span>Director</span></p>
             </div>
         </div>
     </div>
@@ -230,10 +235,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Take great online courses <br>
-                from Edurex!</h1>
-                <h4>This is Photoshop's version  of Lorem Ipsum. Proin gravida <br>
-                vel velit auctor aliquet. Aenean sollicitudin, </h4>
+                <h1>Greetings!</h1>
+                <h4>Dream is not that which you see while sleeping; it is something that does not let you sleep.</h4>
                 <a class="btn" target="_self" href="home/courses">
                    Courses
                 </a>
